@@ -1,0 +1,48 @@
+
+[
+    {
+        "name": "date",
+        "type": "DATE",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "timestamp",
+        "type": "TIMESTAMP",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "API",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "Description",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "Auth",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "HTTPS",
+        "type": "BOOLEAN",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "Cors",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "Link",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "Category",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    }
+]
