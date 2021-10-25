@@ -1,5 +1,5 @@
 resource "google_pubsub_topic" "trigger" {
-  name = "trigger-ingestion"
+  name = "ingestion-meteostat"
 
   labels = {
     project = "mobkoi"
@@ -7,7 +7,7 @@ resource "google_pubsub_topic" "trigger" {
 }
 
 resource "google_cloud_scheduler_job" "trigger" {
-  name        = "trigger-ingestion"
+  name        = "trigger-ingestion-meteostat"
   description = "Trigger ingestion daily"
   schedule    = "30 1 * * *"
   time_zone        = "Europe/London"

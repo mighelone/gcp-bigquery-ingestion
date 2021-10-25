@@ -5,12 +5,12 @@ resource "google_bigquery_dataset" "dataset" {
 
 resource "google_bigquery_table" "entries" {
   dataset_id = google_bigquery_dataset.dataset.dataset_id
-  table_id   = "entries"
+  table_id   = var.table
 
   time_partitioning {
     type = "DAY"
   }
 
-  schema = file("../schema.json")
+  schema = file("../meteostat/schema.json")
 
 }

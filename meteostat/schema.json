@@ -1,0 +1,67 @@
+[
+    {
+        "name": "station",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "time",
+        "type": "TIMESTAMP",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "temp",
+        "type": "FLOAT",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "dwpt",
+        "type": "FLOAT",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "rhum",
+        "type": "FLOAT",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "prcp",
+        "type": "FLOAT",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "snow",
+        "type": "FLOAT",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "wdir",
+        "type": "FLOAT",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "wspd",
+        "type": "FLOAT",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "wpgt",
+        "type": "FLOAT",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "pres",
+        "type": "FLOAT",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "tsun",
+        "type": "FLOAT",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "coco",
+        "type": "FLOAT",
+        "mode": "NULLABLE"
+    }
+]

@@ -5,16 +5,10 @@ variable "project" {
 }
 
 
-variable "api_url" {
-    type = string
-    description = "API url"
-    default = "https://api.publicapis.org/entries"
-}
-
 variable "table" {
     type = string
     description = "(optional) describe your variable"
-    default = "entries"
+    default = "meteostat"
 }
 
 variable "dataset" {
